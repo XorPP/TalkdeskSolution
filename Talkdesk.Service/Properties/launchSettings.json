@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Talkdesk.Service": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

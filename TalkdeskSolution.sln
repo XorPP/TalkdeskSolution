@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talkdesk", "Talkdesk\Talkdesk.csproj", "{1F15230A-6BA3-4B1C-86E8-3A7A3E64F86F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Talkdesk", "Talkdesk\Talkdesk.csproj", "{1F15230A-6BA3-4B1C-86E8-3A7A3E64F86F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talkdesk.Service", "Talkdesk.Service\Talkdesk.Service.csproj", "{0F8F1869-E879-4EEF-97C0-58D5AA3150CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talkdesk.Model", "Talkdesk.Model\Talkdesk.Model.csproj", "{6C335955-0F37-4F96-AE5E-F6834DBFE649}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{1F15230A-6BA3-4B1C-86E8-3A7A3E64F86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F15230A-6BA3-4B1C-86E8-3A7A3E64F86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F15230A-6BA3-4B1C-86E8-3A7A3E64F86F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F8F1869-E879-4EEF-97C0-58D5AA3150CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8F1869-E879-4EEF-97C0-58D5AA3150CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8F1869-E879-4EEF-97C0-58D5AA3150CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8F1869-E879-4EEF-97C0-58D5AA3150CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C335955-0F37-4F96-AE5E-F6834DBFE649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C335955-0F37-4F96-AE5E-F6834DBFE649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C335955-0F37-4F96-AE5E-F6834DBFE649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C335955-0F37-4F96-AE5E-F6834DBFE649}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
