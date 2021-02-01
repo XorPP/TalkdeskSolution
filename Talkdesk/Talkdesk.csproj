@@ -20,6 +20,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Talkdesk.csproj.user" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Resources\prefixes.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
