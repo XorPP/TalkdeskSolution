@@ -47,9 +47,17 @@ namespace Talkdesk.Service
             foreach (string num in lNumbers)
             {
                 string sNumToSearch = num.Replace("+", "").Replace("00", "");
-                //string sPrefix = _prefixes.Find(item => item == num.Substring(0, item.Length));
-                string sPrefix = _prefixes.First(item => item == sNumToSearch.Substring(0, item.Length));
-                
+
+                string sPrefix = "";
+                try
+                {
+                    sPrefix = _prefixes.First(item => item == sNumToSearch.Substring(0, item.Length));
+                }
+                catch (Exception)
+                {
+                    sPrefix = ""; //do nothing
+                }
+
                 if (!String.IsNullOrEmpty(sPrefix))
                 {
                     BusinessSector bs = GetBusinessSector(num);
